@@ -1,6 +1,9 @@
 function searchForm(){
 	$('#textsearch').change(function(e) {
 		input = $(this);
+		console.log("input", input);
+	    console.log("input.val()", input.val());
+	    console.log("input.val().length", input.val().length);
     	if ( input.val().length > 2 ){
     		input.keypress(function(e) {
     			if(e.which == 13) {

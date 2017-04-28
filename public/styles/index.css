@@ -9,8 +9,12 @@
   margin-left: 3rem;
 }
 #result_search {
-  padding: 0.75rem;
+  padding: 0.75rem 0rem;
   display: none;
+}
+#result_search > a {
+  margin-bottom: 0.25rem;
+  display: block;
 }
 .search-form {
   margin-top: 30px;
