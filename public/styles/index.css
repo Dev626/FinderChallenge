@@ -8,6 +8,9 @@
 .search-form {
   margin-top: 30px;
 }
+.save-search {
+  margin-top: 33px;
+}
 @media only screen and (max-width: 650px) {
   .search-form {
     display: none;
